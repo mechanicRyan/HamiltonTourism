@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".MainActivity">
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@+id/iconLayout"
+		android:layout_height="50dp"
+		android:layout_width="match_parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		android:background="@color/hamilton_light_blue">
+
+		<androidx.appcompat.widget.AppCompatButton
+			android:id="@+id/login"
+			android:layout_width="30dp"
+			android:layout_height="30dp"
+			android:layout_margin="15dp"
+			android:onClick="onClick"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			android:scaleType="fitXY"
+			android:background="@drawable/login"
+			android:contentDescription="@string/login" />
+
+		<androidx.appcompat.widget.AppCompatButton
+			android:id="@+id/shoppingcart"
+			android:layout_width="30dp"
+			android:layout_height="30dp"
+			android:layout_margin="15dp"
+			android:onClick="onClick"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toStartOf="@id/login"
+			android:scaleType="fitXY"
+			android:background="@drawable/shoppingcart"
+			android:contentDescription="@string/shopping_card"/>
+
+		<androidx.appcompat.widget.AppCompatButton
+			android:id="@+id/twitter"
+			android:layout_width="30dp"
+			android:layout_height="30dp"
+			android:layout_margin="15dp"
+			android:onClick="onClick"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toStartOf="@id/shoppingcart"
+			android:scaleType="fitXY"
+			android:background="@drawable/twitter"
+			android:contentDescription="@string/twitter"/>
+
+		<androidx.appcompat.widget.AppCompatButton
+			android:id="@+id/instagram"
+			android:layout_width="30dp"
+			android:layout_height="30dp"
+			android:layout_margin="15dp"
+			android:onClick="onClick"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toStartOf="@id/twitter"
+			android:scaleType="fitXY"
+			android:background="@drawable/instagram"
+			android:contentDescription="@string/twitter"/>
+
+		<androidx.appcompat.widget.AppCompatButton
+			android:id="@+id/facebook"
+			android:layout_width="30dp"
+			android:layout_height="30dp"
+			android:layout_margin="15dp"
+			android:onClick="onClick"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toStartOf="@id/instagram"
+			android:scaleType="fitXY"
+			android:background="@drawable/facebook"
+			android:contentDescription="@string/twitter"/>
+	</androidx.constraintlayout.widget.ConstraintLayout>
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@+id/headerLayout"
+		android:layout_height="50dp"
+		android:layout_width="match_parent"
+		app:layout_constraintTop_toBottomOf="@id/iconLayout"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		android:background="@android:color/white">
+
+		<ImageView
+			android:id="@+id/logoIV"
+			android:layout_width="150dp"
+			android:layout_height="30dp"
+			android:layout_marginStart="10dp"
+			android:src="@drawable/logo"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			android:contentDescription="@string/logo" />
+
+		<androidx.appcompat.widget.AppCompatButton
+			android:id="@+id/accommodation"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/accommodation"
+			android:textAllCaps="false"
+			android:onClick="onClick"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintBottom_toBottomOf="parent"
+			android:textColor="@color/hamilton_dark_blue"
+			android:background="@android:color/transparent"/>
+
+	</androidx.constraintlayout.widget.ConstraintLayout>
+
+	<androidx.viewpager.widget.ViewPager
+		android:id="@+id/viewpager"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		app:layout_constraintTop_toBottomOf="@id/headerLayout"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		android:clipChildren="false" />
+
+	<TextView
+		android:id="@+id/introducingTV"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/hamilton_island"
+		android:textSize="30sp"
+		android:textColor="@android:color/white"
+		android:fontFamily="sans-serif-medium"
+		app:layout_constraintStart_toStartOf="@id/viewpager"
+		app:layout_constraintEnd_toEndOf="@id/viewpager"
+		app:layout_constraintTop_toTopOf="@id/viewpager"
+		app:layout_constraintBottom_toBottomOf="@id/viewpager"/>
+
+	<Button
+		android:id="@+id/findBtn"
+		android:layout_width="300dp"
+		android:layout_margin="30sp"
+		android:layout_height="wrap_content"
+		android:background="@drawable/shapes"
+		android:text="@string/find_out_more"
+		android:textColor="@android:color/white"
+		android:textAllCaps="true"
+		android:onClick="onClick"
+		android:layout_marginBottom="30dp"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/introducingTV"/>
+
+	<com.pierfrancescosoffritti.youtubeplayer.player.YouTubePlayerView
+		android:id="@+id/youtube_player_view"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:visibility="invisible"
+		app:layout_constraintTop_toTopOf="@id/viewpager"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

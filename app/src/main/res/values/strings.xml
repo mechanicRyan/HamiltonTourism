@@ -1,0 +1,24 @@
+<resources>
+	<string name="app_name">HamiltonTourism</string>
+	<string name="login">Login</string>
+	<string name="shopping_card">Shopping Card</string>
+	<string name="twitter">Twitter</string>
+	<string name="accommodation">Accommodation</string>
+	<string name="logo">Logo</string>
+	<string name="activity">Activity</string>
+	<string name="hamilton_island">Hamilton Island</string>
+	<string name="find_out_more">FIND OUT MORE</string>
+	<string name="title_activity_login">LoginActivity</string>
+	<string name="prompt_email">Email</string>
+	<string name="prompt_password">Password</string>
+	<string name="action_sign_in">Sign in or Register</string>
+	<string name="action_sign_in_short">Sign in</string>
+	<string name="welcome">"Welcome !"</string>
+	<string name="invalid_username">Not a valid username</string>
+	<string name="invalid_password">Password must be >5 characters</string>
+	<string name="login_failed">"Login failed"</string>
+	<string name="book_now">Book Now</string>
+	<string name="checkout">Checkout</string>
+
+	<string name="GOOGLE_API_KEY">AIzaSyCiSOr84iwvAssaQSy2P5Vvs5Ddfdi_XC8</string>
+</resources>
