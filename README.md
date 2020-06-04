@@ -12,6 +12,8 @@ remote git repository: origin contains 5 branches, each branches are updated eac
 
 Final version of project location: https://github.com/mechanicRyan/HamiltonTourism/
 
+In this assignment, I am going to develop an island travel booking app, which allow users to book a travel trip and join the beautiful journey. email booking system feature connect to the firebase
+
 Project draft desgin idea and layout
 
 ![](微信图片_20200531234710.png)
