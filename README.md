@@ -10,7 +10,7 @@ project remote gitlink：git@github.com:/mechanicRyan/HamiltonTourism.git
 
 remote git repository: origin contains 5 branches, each branches are updated each weekly update！！！
 
-Final version of project location: https://github.com/mechanicRyan/HamiltonTourism/finalversion
+Final version of project location: https://github.com/mechanicRyan/HamiltonTourism
 
 In this assignment, I am going to develop an island travel booking app, which allow users to book accomdations in our app. email booking system feature connect to the firebase. Also, I implement a youtube video in my app's home page.
 
