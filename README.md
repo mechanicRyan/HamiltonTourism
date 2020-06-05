@@ -4,7 +4,8 @@
 
 This is a sit305 assignment 2 mobile app
 
-student name: Kunyuan Ye student id: 218589875
+student name: Kunyuan Ye 
+student id: 218589875
 
 gitlink: https://github.com/mechanicRyan/HamiltonTourism.git
 
