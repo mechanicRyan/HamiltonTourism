@@ -6,7 +6,7 @@ This is a sit305 assignment 2 mobile app
 
 student name: Kunyuan Ye student id: 218589875
 
-project remote gitlink：git@github.com:/mechanicRyan/HamiltonTourism.git
+project remote https://github.com/mechanicRyan/HamiltonTourism.git
 
 remote git repository: origin contains 5 branches, each branches are updated each weekly update！！！
 
