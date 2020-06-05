@@ -9,9 +9,9 @@ student id: 218589875
 
 gitlink: https://github.com/mechanicRyan/HamiltonTourism.git
 
-remote git repository: origin contains 5 branches, each branches are updated each weekly updates！！！
+remote git repository: origin contains 5 branches, each branches are updated each weekly updates！！！ and the final project is in default branch named finalversion branch！！！
 
-!!!because I am not familiar with github and git, I have tried millions of time to solve the commit caused confliact, it did not success, so I tried another methond, I created 5 branches, each each branches are updated each weekly updates！！！
+！！！because I am not familiar with github and git, I have tried millions of time to solve the commit caused confliact, it did not success, so I tried another methond, I created 5 branches, each each branches are updated each weekly updates！！！and the final project is in default branch named finalversion branch！！！
 
 Final version of project location: https://github.com/mechanicRyan/HamiltonTourism
 
